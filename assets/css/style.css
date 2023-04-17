@@ -1,0 +1,93 @@
+body {
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.bg-iguana {
+    display: flexbox;
+    flex-direction: column;
+    height: 35rem;
+    background-image: url(../img/bg-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.titulo {
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+p {
+    width: 49%;
+    display: block;
+    text-align: justify;
+    padding: 5%;
+}
+
+h2 {
+    padding-top: 5%;
+    text-align: center;
+    background-color: #1E1A13;
+    color: white;
+}
+
+main {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 5%;
+}
+
+img {
+    
+    width: 40%;
+}
+.container {    
+    background-color: #1E1A13 ;
+    display: inline-flexbox;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;    
+}
+
+.cajitas  {
+    width: 20%;
+    padding: 1%;
+    display: inline-block;    
+    flex-direction: column;
+    margin: 4rem 0;    
+    padding: 1rem;
+    color: white;
+    background-color: #1E1A13;    
+}
+
+.galeria {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.foto {
+    display: inline-block;
+    height: 30%;
+    margin: 0.75%;
+    padding: 0.75%;
+}
+
+.foto img {
+    width: 100%;
+}
+
+footer {    
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #1E1A13 ;
+    display: inline-flexbox;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    
+}
